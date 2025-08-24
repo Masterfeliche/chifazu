@@ -1,15 +1,26 @@
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+// In your App.js or any global file, import and apply sarufi chatbox
+import SarufiChatbox from "react-sarufi-chatbox"
+  
+// usage
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +36,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-sans`}
       >
+        <Header />
+        {/* <SarufiChatbox botId={6226} /> */}
         {children}
+        
+        <Footer />
       </body>
     </html>
   );
