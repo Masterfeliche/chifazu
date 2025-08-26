@@ -1,0 +1,4 @@
+script:
+    npm install
+    npm run eport
+run: serve out -p 8080
