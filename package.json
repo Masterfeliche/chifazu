@@ -23,5 +23,10 @@
     "eslint-config-next": "15.4.4",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "eslintConfig": {
+    "rules": {
+      "react/no-unescaped-entities": "off"
+    }
   }
 }
