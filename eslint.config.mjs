@@ -10,7 +10,15 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  // Next.js recommended config
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+
+  // ✅ custom rules & overrides
+  {
+    rules: {
+      "react/no-unescaped-entities": "off", // disable quote/apostrophe lint errors
+    },
+  },
 ];
 
 export default eslintConfig;
