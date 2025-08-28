@@ -6,6 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "serve": "serve out -p 8080",
     "lint": "next lint"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.3.0",
     "jiti": "^2.5.1",
+    "serve": "^14.2.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
