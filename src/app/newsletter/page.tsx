@@ -125,7 +125,7 @@ export default function Newsletter() {
             <h4 className="text-xl font-bold mb-2">September 2025 Update</h4>
             <p className="text-gray-400 mb-4">Published 2 weeks ago</p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              "Hey everyone! What an incredible month it's been. The response to 'Echoes' has been overwhelming, and I can't thank you enough for all the love and support. In this month's newsletter, I'm sharing some behind-the-scenes photos from the recording session, plus an exclusive acoustic version of the track that you won't find anywhere else..."
+              &ldquo;Hey everyone! What an incredible month it&apos;s been. The response to &apos;Echoes&apos; has been overwhelming, and I can&apos;t thank you enough for all the love and support. In this month&apos;s newsletter, I&apos;m sharing some behind-the-scenes photos from the recording session, plus an exclusive acoustic version of the track that you won&apos;t find anywhere else...&rdquo;
             </p>
             <button className="text-azu-amber hover:text-yellow-400 font-medium">
               Read Full Newsletter →

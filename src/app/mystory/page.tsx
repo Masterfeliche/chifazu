@@ -115,7 +115,7 @@ export default function MyStory() {
               <div className="grid md:grid-cols-2 gap-8 mb-6">
                 <div>
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                  His earliest memories of falling in love with music stretch back to childhood, persistently asking his mother to bring home printed lyrics of Michael Jackson songs. But it was the daily Bajaj rides to primary school that solidified this passion. The driver’s music system would blast various tracks, and one particular day, he found himself captivated by Eminem’s "I'm Not Afraid." At just over 11 years old, he asked the driver to replay the song repeatedly, memorizing it fully within four days of constant listening during those 15-minute rides.
+                  His earliest memories of falling in love with music stretch back to childhood, persistently asking his mother to bring home printed lyrics of Michael Jackson songs. But it was the daily Bajaj rides to primary school that solidified this passion. The driver’s music system would blast various tracks, and one particular day, he found himself captivated by Eminem’s &ldquo;I&apos;m Not Afraid.&rdquo; At just over 11 years old, he asked the driver to replay the song repeatedly, memorizing it fully within four days of constant listening during those 15-minute rides.
                   </p>
                 </div>
                 <div className="relative h-120 rounded-lg overflow-hidden">
@@ -162,7 +162,7 @@ export default function MyStory() {
               </div>
 
               <div className="bg-gray-800 rounded-lg p-6 italic text-gray-400 border-l-4 border-blue-500">
-                "Music became my language before I even knew I was speaking it."
+                &ldquo;Music became my language before I even knew I was speaking it.&rdquo;
               </div>
             </div>
           </div>
@@ -241,9 +241,9 @@ export default function MyStory() {
                   First Breakthrough Moment:
                 </h4>
                 <p className="text-gray-300 italic">
-                  "The night I played 'Whispered Dreams' at the local venue and
+                  &ldquo;The night I played &apos;Whispered Dreams&apos; at the local venue and
                   saw people in the audience crying— that's when I knew music
-                  was more than just sound. It was connection."
+                  was more than just sound. It was connection.&rdquo;
                 </p>
               </div>
             </div>

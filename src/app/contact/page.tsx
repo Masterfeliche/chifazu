@@ -7,7 +7,7 @@ export default function Contact() {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Have a question, collaboration idea, or just want to say hello? I'd love to hear from you.
+            Have a question, collaboration idea, or just want to say hello? I&apos;d love to hear from you.
           </p>
         </div>
 

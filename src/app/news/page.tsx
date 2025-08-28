@@ -42,7 +42,7 @@ export default function News() {
               2026 Tour Dates Announced
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              The wait is over! I'm thrilled to announce my 2025 tour dates across major cities. This will be my most ambitious tour yet, featuring new stage production and exclusive performances of unreleased tracks.
+              The wait is over! I&apos;m thrilled to announce my 2025 tour dates across major cities. This will be my most ambitious tour yet, featuring new stage production and exclusive performances of unreleased tracks.
             </p>
             <button className="text-azu-amber hover:text-yellow-400 font-medium">
               Read More →
@@ -78,7 +78,7 @@ export default function News() {
               Exciting Collaboration with Rising Artist Sunya and FockyBeatz
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm excited to share that I've been working on a special collaboration with the incredibly talented Luna. Our combined styles create something truly unique, and I can't wait for you to hear what we've been cooking up in the studio.
+              I&apos;m excited to share that I&apos;ve been working on a special collaboration with the incredibly talented Luna. Our combined styles create something truly unique, and I can&apos;t wait for you to hear what we&apos;ve been cooking up in the studio.
             </p>
             <button className="text-azu-amber hover:text-yellow-400 font-medium">
               Read More →

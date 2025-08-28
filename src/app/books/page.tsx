@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 export default function Books() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white pt-24">
@@ -161,9 +161,9 @@ export default function Books() {
           <h2 className="text-3xl font-bold mb-8 text-azu-amber">Featured Excerpt</h2>
           <div className="bg-gray-800 rounded-lg p-8 max-w-4xl mx-auto">
             <blockquote className="text-lg italic text-gray-300 leading-relaxed mb-6">
-              "Music isn't just sound waves traveling through air—it's emotion given form, memory made tangible, and dreams translated into a language everyone can understand. In those moments when the melody hits just right, when the rhythm matches your heartbeat, you realize that music isn't something you listen to—it's something you become."
+              "Music isn&apos;t just sound waves traveling through air—it&apos;s emotion given form, memory made tangible, and dreams translated into a language everyone can understand. In those moments when the melody hits just right, when the rhythm matches your heartbeat, you realize that music isn&apos;t something you listen to—it&apos;s something you become.&rdquo;
             </blockquote>
-            <cite className="text-azu-amber font-medium">— From "Rhythms of the Soul"</cite>
+            <cite className="text-azu-amber font-medium">— From &ldquo;Rhythms of the Soul&rdquo;</cite>
           </div>
         </div>
       </div>

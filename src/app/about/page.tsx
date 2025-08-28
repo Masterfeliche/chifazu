@@ -27,7 +27,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-azu-amber mb-6">The Artist Behind the Music</h2>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              Music isn't just what I do—it's who I am. From the moment I first touched a piano key at age seven, 
+              Music isn&apos;t just what I do—it&apos;s who I am. From the moment I first touched a piano key at age seven, 
               I knew I had found my voice. What started as childhood curiosity has evolved into a lifelong passion 
               for creating sounds that move people, challenge perceptions, and bridge the gap between different worlds.
             </p>
@@ -39,9 +39,9 @@ export default function About() {
             </p>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              Over the years, I've had the privilege of collaborating with incredible artists, each bringing their 
+              Over the years, I&apos;ve had the privilege of collaborating with incredible artists, each bringing their 
               own perspective to our shared creative vision. These partnerships have taught me that music is not 
-              just about individual expression—it's about connection, community, and the magic that happens when 
+              just about individual expression—it&apos;s about connection, community, and the magic that happens when 
               different voices harmonize.
             </p>
           </div>
@@ -100,19 +100,19 @@ export default function About() {
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Tridybane - "Emotional" (2023)
+                      Tridybane - &ldquo;Emotional&rdquo; (2023)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Tridybane - "Angelina" (2022)
+                      Tridybane - &ldquo;Angelina&rdquo; (2022)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Sunya - "Mwenyewe" (2024)
+                      Sunya - &ldquo;Mwenyewe&rdquo; (2024)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Dramma - "Tunapush" (2025)
+                      Dramma - &ldquo;Tunapush&rdquo; (2025)
                     </li>
                   </ul>
                 </div>
@@ -129,19 +129,19 @@ export default function About() {
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Tridybane - "Emotional" (2023)
+                      Tridybane - &ldquo;Emotional&rdquo; (2023)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Tridybane - "Angelina" (2022)
+                      Tridybane - &ldquo;Angelina&rdquo; (2022)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Sunya - "Mwenyewe" (2024)
+                      Sunya - &ldquo;Mwenyewe&rdquo; (2024)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Dramma - "Tunapush" (2025)
+                      Dramma - &ldquo;Tunapush&rdquo; (2025)
                     </li>
                   </ul>
                 </div>
@@ -157,19 +157,19 @@ export default function About() {
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Tridybane - "Emotional" (2023)
+                      Tridybane - &ldquo;Emotional&rdquo; (2023)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Tridybane - "Angelina" (2022)
+                      Tridybane - &ldquo;Angelina&rdquo; (2022)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Sunya - "Mwenyewe" (2024)
+                      Sunya - &ldquo;Mwenyewe&rdquo; (2024)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-azu-amber rounded-full mr-3"></span>
-                      Dramma - "Tunapush" (2025)
+                      Dramma - &ldquo;Tunapush&rdquo; (2025)
                     </li>
                   </ul>
                 </div>
