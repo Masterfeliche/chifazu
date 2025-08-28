@@ -1,14 +1,12 @@
 // eslint.config.mts
-import { FlatCompat } from "@eslint/eslintrc";
+import { defineConfig } from "eslint/config";
 
-const compat = new FlatCompat({ baseDirectory: process.cwd() });
-
-export default [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+export default defineConfig([
   {
+    files: ["**/*.{js,ts,jsx,tsx}"],
     rules: {
-      "react/no-unescaped-entities": "off", // disable blocking build
-      "@typescript-eslint/no-unused-vars": "warn", // just warning
+      "react/no-unescaped-entities": "off",
+      "@typescript-eslint/no-unused-vars": "warn",
     },
   },
-];
+]);
