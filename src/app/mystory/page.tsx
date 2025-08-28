@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function MyStory() {
-  const [activeChapter, setActiveChapter] = useState(1);
+  const [activeChapter] = useState(1);
   const [showFullTimeline, setShowFullTimeline] = useState(false);
 
   const chapters = [
@@ -444,18 +444,18 @@ export default function MyStory() {
               <div className="grid md:grid-cols-2 gap-8 mb-6">
                 <div>
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Today, I'm living the dream I once thought was impossible.
-                    But success hasn't changed the core of who I am or why I
+                    Today, I&apos;m living the dream I once thought was impossible.
+                    But success hasn&apos;t changed the core of who I am or why I
                     make music. Every song is still written with the same
                     passion, the same vulnerability, and the same hope that it
                     will connect with someone who needs to hear it.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    I've learned that being an artist isn't just about
-                    creating—it's about constantly evolving, pushing boundaries,
+                    I&apos;ve learned that being an artist isn&apos;t just about
+                    creating—it&apos;s about constantly evolving, pushing boundaries,
                     and staying true to your vision while remaining open to new
                     influences and collaborations. The journey continues, and
-                    I'm excited about every step ahead.
+                    I&apos;m excited about every step ahead.
                   </p>
                 </div>
                 <div className="relative h-120 rounded-lg overflow-hidden">
@@ -482,7 +482,7 @@ export default function MyStory() {
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                      New album "Metamorphosis" (80% complete)
+                      New album &ldquo;Metamorphosis&rdquo; (80% complete)
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-teal-500 rounded-full mr-3"></span>
