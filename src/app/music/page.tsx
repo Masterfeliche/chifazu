@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Music() {
@@ -41,12 +40,10 @@ export default function Music() {
               </Link>
             </div>
             <div className="relative h-80">
-              <Image
+              <img
                 src="/covers/AXT.png"
                 alt="AXT EP Album Cover"
-                fill
-                className="object-cover rounded-xl"
-                quality={90}
+                className="w-full h-full object-cover rounded-xl"
               />
             </div>
           </div>
@@ -56,12 +53,10 @@ export default function Music() {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
             <div className="relative h-48 mb-6">
-              <Image
-                src="/covers/ENTIRELY.png"
-                alt="Albums"
-                fill
-                className="object-cover rounded-lg"
-                quality={80}
+            <img
+                src="/covers/ENDELEA.png"
+                alt="Singles"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-white">Spotify</h3>
@@ -77,12 +72,10 @@ export default function Music() {
 
           <div className="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
             <div className="relative h-48 mb-6">
-              <Image
+              <img
                 src="/covers/MA.jpeg"
                 alt="Singles"
-                fill
-                className="object-cover rounded-lg"
-                quality={80}
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-white">Youtube</h3>
@@ -100,12 +93,10 @@ export default function Music() {
 
           <div className="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
             <div className="relative h-48 mb-6">
-              <Image
+              <img
                 src="/covers/EMOTIONAL.png"
                 alt="Collaborations"
-                fill
-                className="object-cover rounded-lg"
-                quality={80}
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-white">
@@ -133,12 +124,10 @@ export default function Music() {
             <div className="bg-gray-800 rounded-lg p-6 flex items-center justify-between hover:bg-gray-700 transition-colors">
               <div className="flex items-center space-x-4">
                 <div className="relative w-16 h-16">
-                  <Image
+                  <img
                     src="/covers/REAZONS.png"
                     alt="Reazons Track"
-                    fill
-                    className="object-cover rounded-lg"
-                    quality={80}
+                    className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
                 <div>
@@ -158,12 +147,10 @@ export default function Music() {
             <div className="bg-gray-800 rounded-lg p-6 flex items-center justify-between hover:bg-gray-700 transition-colors">
               <div className="flex items-center space-x-4">
                 <div className="relative w-16 h-16">
-                  <Image
+                  <img
                     src="/covers/KISINGIZIO.png"
                     alt="Kisingizio Track"
-                    fill
-                    className="object-cover rounded-lg"
-                    quality={80}
+                    className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
                 <div>
@@ -182,12 +169,10 @@ export default function Music() {
             <div className="bg-gray-800 rounded-lg p-6 flex items-center justify-between hover:bg-gray-700 transition-colors">
               <div className="flex items-center space-x-4">
                 <div className="relative w-16 h-16">
-                  <Image
+                  <img
                     src="/covers/EMOTIONAL.png"
                     alt="Emotional Track"
-                    fill
-                    className="object-cover rounded-lg"
-                    quality={80}
+                    className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
                 <div>
@@ -206,12 +191,10 @@ export default function Music() {
             <div className="bg-gray-800 rounded-lg p-6 flex items-center justify-between hover:bg-gray-700 transition-colors">
               <div className="flex items-center space-x-4">
                 <div className="relative w-16 h-16">
-                  <Image
+                  <img
                     src="/covers/ENDELEA.png"
                     alt="Endelea Track"
-                    fill
-                    className="object-cover rounded-lg"
-                    quality={80}
+                    className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
                 <div>
@@ -230,12 +213,10 @@ export default function Music() {
             <div className="bg-gray-800 rounded-lg p-6 flex items-center justify-between hover:bg-gray-700 transition-colors">
               <div className="flex items-center space-x-4">
                 <div className="relative w-16 h-16">
-                  <Image
+                  <img
                     src="/covers/WHAT IF .png"
                     alt="What If Track"
-                    fill
-                    className="object-cover rounded-lg"
-                    quality={80}
+                    className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
                 <div>

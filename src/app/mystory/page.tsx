@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -119,13 +118,10 @@ export default function MyStory() {
                   </p>
                 </div>
                 <div className="relative h-120 rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/azuyeye/IMG_4293.jpg"
                     alt="Early musical beginnings"
-                    fill
-                    className="object-cover"
-                    quality={100}
-                    
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-500/60 to-purple-500/30"></div>
 
@@ -195,12 +191,10 @@ export default function MyStory() {
                  
                 </div>
                 <div className="relative h-120 rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/azuyeye/DSC04354.jpg"
                     alt="Finding my voice in music"
-                    fill
-                    className="object-cover"
-                    quality={80}
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t "></div>
                  
@@ -275,12 +269,10 @@ export default function MyStory() {
                 
                 </div>
                 <div className="relative h-120 rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/azuyeye/IMG_4304.jpg"
                     alt="The difficult years and struggles"
-                    fill
-                    className="object-cover"
-                    quality={80}
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t "></div>
                   
@@ -358,12 +350,10 @@ export default function MyStory() {
   
                 </div>
                 <div className="relative h-120 rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/azuyeye/IMG_3035.jpg"
                     alt="The breakthrough moment"
-                    fill
-                    className="object-cover"
-                    quality={80}
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t"></div>
                   
@@ -459,12 +449,10 @@ export default function MyStory() {
                   </p>
                 </div>
                 <div className="relative h-120 rounded-lg overflow-hidden">
-                  <Image
+                  <img
                     src="/azuyeye/IMG_4304.jpg"
                     alt="Current projects and future"
-                    fill
-                    className="object-cover"
-                    quality={80}
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t "></div>
                   <div className="absolute bottom-4 left-4 text-white font-bold">
@@ -539,7 +527,7 @@ export default function MyStory() {
         </div>
 
         {/* Interactive Stats Section */}
-        <div className="mt-20 bg-gray-800 rounded-2xl p-8 mb-12">
+        {/* <div className="mt-20 bg-gray-800 rounded-2xl p-8 mb-12">
           <h3 className="text-2xl font-bold text-white mb-8 text-center">
             Journey by Numbers
           </h3>
@@ -563,7 +551,7 @@ export default function MyStory() {
               <div className="text-gray-400 text-sm">Collaborations</div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Fan Messages Section */}
         <div className="mb-20">

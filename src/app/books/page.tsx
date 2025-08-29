@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Books() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white pt-24">
@@ -16,13 +14,10 @@ export default function Books() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all">
             <div className="h-60 bg-gradient-to-br from-azu-amber to-orange-600 flex items-center justify-center">
-                  <Image
+                  <img
                     src="/covers/lsd.jpg"
-                    alt="The difficult years and struggles"
-                    width={350}
-                    height={400}
-                    className="object-cover"
-                    quality={80}
+                    alt="LSD Book Cover"
+                    className="w-full h-full object-cover"
                   />
               
             </div>
@@ -43,13 +38,10 @@ export default function Books() {
           </div>
           <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all">
             <div className="h-60 bg-gradient-to-br from-azu-amber to-orange-600 flex items-center justify-center">
-                  <Image
+                  <img
                     src="/covers/MAPANCHA NA MAZAGA (Front) (2).jpg"
-                    alt="The difficult years and struggles"
-                    width={350}
-                    height={400}
-                    className="object-cover"
-                    quality={80}
+                    alt="Mapancha Na Mazaga Book Cover"
+                    className="w-full h-full object-cover"
                   />
               
             </div>
@@ -69,13 +61,10 @@ export default function Books() {
           </div>
           <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all">
             <div className="h-60 bg-gradient-to-br from-azu-amber to-orange-600 flex items-center justify-center">
-                  <Image
+                  <img
                     src="/covers/lsd.jpg"
-                    alt="The difficult years and struggles"
-                    width={350}
-                    height={400}
-                    className="object-cover"
-                    quality={80}
+                    alt="Rhythms of the Soul Book Cover"
+                    className="w-full h-full object-cover"
                   />
               
             </div>

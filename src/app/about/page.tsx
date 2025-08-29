@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -18,8 +17,12 @@ export default function About() {
         {/* Main Content */}
         <div className="grid lg:grid-cols-1 gap-16 items-center mb-20">
           <div>
-            <div className="bg-gradient-to-br from-azu-amber rounded-lg h-96 flex items-center justify-center mb-8">
-              <Image src="/azuyeye/IMG_4304.jpg" alt="azu portarit" fill  style={{objectFit: 'cover'}} />
+            <div className="bg-gradient-to-br from-azu-amber rounded-lg h-96 flex items-center justify-center mb-8 relative overflow-hidden p-1">
+              <img 
+                src="/azuyeye/IMG_4304.jpg" 
+                alt="azu portrait" 
+                className="w-full h-full object-cover rounded-lg"
+              />
             </div>
           </div>
           
@@ -188,13 +191,13 @@ export default function About() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/mystory"
-              className="bg-azu-amber text-black px-8 py-3 rounded-full font-medium hover:bg-red-600 transition-colors"
+              className="bg-azu-amber text-white px-8 py-3 rounded-full font-medium hover:bg-yellow-500 transition-colors"
             >
               Read My Story
             </Link>
             <Link
               href="/music"
-              className="bg-transparent border-2 border-azu-amber text-azu-amber hover:bg-azu-amber hover:text-red-600 px-8 py-3 rounded-full font-medium transition-colors"
+              className="bg-transparent border-2 border-yellow text-azu-amber hover:bg-azu-amber hover:text-white-600 px-8 py-3 rounded-full font-medium transition-colors"
             >
               Explore My Music
             </Link>

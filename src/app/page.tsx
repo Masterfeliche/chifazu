@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -9,13 +8,10 @@ export default function Home() {
         {/* Dynamic Background */}
         <div className="absolute inset-0">
           {/* Background Image */}
-          <Image
+          <img
             src="/azuyeye/IMG_4304.jpg"
             alt="AZU Hero Background"
-            fill
-            className="object-cover"
-            priority
-            quality={90}
+            className="w-full h-full object-cover"
           />
         </div>
 
@@ -101,12 +97,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all">
               <div className="relative h-48">
-                <Image
+                <img
                   src="/covers/AXT.png"
                   alt="Echoes Single Cover"
-                  fill
-                  className="object-cover"
-                  quality={80}
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
@@ -124,12 +118,10 @@ export default function Home() {
 
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all">
               <div className="relative h-48">
-                <Image
+                <img
                   src="/covers/SISTABUDDY.jpg"
                   alt="Midnight Dreams Album Cover"
-                  fill
-                  className="object-cover"
-                  quality={80}
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
@@ -147,12 +139,10 @@ export default function Home() {
 
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all">
               <div className="relative h-48">
-                <Image
+                <img
                   src="/covers/EMOTIONAL.png"
                   alt="Collaboration Cover"
-                  fill
-                  className="object-cover"
-                  quality={80}
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
@@ -213,12 +203,10 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="relative h-96 rounded-lg overflow-hidden">
-                <Image
+                <img
                   src="/azuyeye/DSC04354.jpg"
                   alt="AZU Artist Photo"
-                  fill
-                  className="object-cover"
-                  quality={85}
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
