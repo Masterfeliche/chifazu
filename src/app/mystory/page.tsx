@@ -9,32 +9,32 @@ export default function MyStory() {
   const chapters = [
     {
       id: 1,
-      title: "The Beginning",
-      year: "2010-2015",
+      title: " The Foundation",
+      year: "2009-2010",
       color: "from-blue-500 to-purple-500",
     },
     {
       id: 2,
-      title: "Finding My Voice",
-      year: "2015-2018",
+      title: "EVOLUTION",
+      year: "2016-2020",
       color: "from-purple-500 to-pink-500",
     },
     {
       id: 3,
-      title: "The Difficult Years",
-      year: "2018-2020",
+      title: "COLLABORATIONS",
+      year: "2023",
       color: "from-red-500 to-orange-500",
     },
     {
       id: 4,
-      title: "The Turning Point",
-      year: "2020-2022",
+      title: "MORE SINGLES",
+      year: "2024",
       color: "from-azu-amber to-yellow-400",
     },
     {
       id: 5,
-      title: "Today & Tomorrow",
-      year: "2022-Present",
+      title: "NOW",
+      year: "2025",
       color: "from-green-500 to-teal-500",
     },
   ];
@@ -178,7 +178,7 @@ export default function MyStory() {
                     EVOLUTION
                 </h2>
                 <p className="text-gray-400 text-sm">
-                  2016-2020 • The Discovery
+                  2016-2020 
                 </p>
               </div>
             </div>
@@ -257,7 +257,7 @@ export default function MyStory() {
                 <h2 className="text-3xl font-bold text-white">
                   COLLABORATIONS
                 </h2>
-                <p className="text-gray-400 text-sm">2023 • The Test</p>
+                <p className="text-gray-400 text-sm">2023 </p>
               </div>
             </div>
             <div className="ml-22 pl-6 border-l-2 border-gray-700">
@@ -337,7 +337,7 @@ export default function MyStory() {
                   WHERE IS THE JOURNEY NOW?
                 </h2>
                 <p className="text-gray-400 text-sm">
-                  2025 • TO PRESENT
+                  2025 
                 </p>
               </div>
             </div>

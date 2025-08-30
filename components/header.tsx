@@ -2,7 +2,16 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
+import { FcAbout } from "react-icons/fc";
+import { FaTeamspeak } from "react-icons/fa";
+import { FcMusic } from "react-icons/fc";
+import { TbShirtSport } from "react-icons/tb";
+import { SiWikibooks } from "react-icons/si";
+import { HiOutlineSpeakerphone } from "react-icons/hi";
+import { MdConnectWithoutContact } from "react-icons/md";
+import { GiLetterBomb, GiTimeBomb } from "react-icons/gi";
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -29,24 +38,27 @@ export default function Header() {
               href="/"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
-              Home
+             <span><FaHome size={20} className="text-yellow-700" /></span> Home
             </Link>
             <Link
               href="/about"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
+              <span><FcAbout size={20} className="text-yellow-700" /></span>
               About
             </Link>
             <Link
               href="/mystory"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
+              <span><FaTeamspeak size={20} className="text-yellow-700" /></span>
               My Story
             </Link>
             <Link
               href="/music"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
+              <span><FcMusic size={20} className="text-yellow-700" /></span>
               Music
             </Link>
 
@@ -54,32 +66,45 @@ export default function Header() {
               href="/merch"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
+              <span><TbShirtSport size={20} className="text-yellow-700" /></span>
               Merch
+            </Link>
+            <Link
+              href="/books"
+              className="text-white hover:text-azu-amber transition-colors duration-200"
+            >
+              <span><SiWikibooks size={20} className="text-yellow-700" /></span>
+              Books
             </Link>
             <Link
               href="/news"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
+              <span><HiOutlineSpeakerphone size={20} className="text-yellow-700" /></span>
               News
             </Link>
             <Link
               href="/contact"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
+              <span><MdConnectWithoutContact size={20} className="text-yellow-700" /></span>
               Contact
             </Link>
-            <Link
-              href="/books"
-              className="text-white hover:text-azu-amber transition-colors duration-200"
-            >
-              Books
-            </Link>
+           
 
             <Link
               href="/newsletter"
               className="text-white hover:text-azu-amber transition-colors duration-200"
             >
+              <span><GiLetterBomb size={20} className="text-yellow-700" /></span>
               Newsletter
+            </Link>
+
+            <Link
+              href="/cartalog"
+              className="text-white hover:text-azu-amber transition-colors duration-200"
+            >
+              <MdOutlineShoppingCart size={35} className="text-yellow-700" />
             </Link>
           </div>
           {/* Mobile menu button */}
